@@ -1,0 +1,155 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="@color/white"
+    android:contentDescription="@string/videoBtnText"
+    android:orientation="vertical"
+    tools:context=".MainActivity" >
+
+    <Button
+        android:id="@+id/scholarshipsButton"
+        android:layout_width="60dip"
+        android:layout_height="50dip"
+        android:layout_alignBaseline="@+id/papersButton"
+        android:layout_alignBottom="@+id/papersButton"
+        android:layout_alignParentRight="true"
+        android:layout_marginRight="26dp"
+        android:background="@drawable/scholarships_icon" />
+
+    <Button
+        android:id="@+id/videosButton"
+        android:layout_width="60dip"
+        android:layout_height="50dip"
+        android:layout_alignBaseline="@+id/calButton"
+        android:layout_alignBottom="@+id/calButton"
+        android:layout_alignLeft="@+id/scholarshipsButton"
+        android:background="@drawable/video_icon" />
+
+    <TextView
+        android:id="@+id/textView1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBaseline="@+id/papersLabel"
+        android:layout_alignBottom="@+id/papersLabel"
+        android:layout_alignRight="@+id/contactsButton"
+        android:text="@string/notificationBtnText"
+        android:textAppearance="?android:attr/textAppearanceSmall"
+        android:textColor="@color/darkBlue"
+        android:textSize="10sp" />
+
+    <TextView
+        android:id="@+id/scholarshipsLabel"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBaseline="@+id/papersLabel"
+        android:layout_alignBottom="@+id/papersLabel"
+        android:layout_alignLeft="@+id/scholarshipsButton"
+        android:text="@string/scholarshipsBtnText"
+        android:textColor="@color/darkBlue"
+        android:textSize="10sp" />
+
+    <Button
+        android:id="@+id/notificationsButton"
+        android:layout_width="60dip"
+        android:layout_height="50dip"
+        android:layout_alignBaseline="@+id/papersButton"
+        android:layout_alignBottom="@+id/papersButton"
+        android:layout_alignParentLeft="true"
+        android:layout_marginLeft="38dp"
+        android:background="@drawable/supporticon" />
+
+    <Button
+        android:id="@+id/contactsButton"
+        android:layout_width="60dip"
+        android:layout_height="50dip"
+        android:layout_above="@+id/notificationsButton"
+        android:layout_alignLeft="@+id/notificationsButton"
+        android:layout_marginBottom="34dp"
+        android:background="@drawable/contacts_icon" />
+
+    <Button
+        android:id="@+id/calButton"
+        android:layout_width="60dip"
+        android:layout_height="50dip"
+        android:layout_alignBaseline="@+id/contactsButton"
+        android:layout_alignBottom="@+id/contactsButton"
+        android:layout_centerHorizontal="true"
+        android:background="@drawable/calendar_icon" />
+
+    <Button
+        android:id="@+id/papersButton"
+        android:layout_width="60dip"
+        android:layout_height="50dip"
+        android:layout_alignLeft="@+id/calButton"
+        android:layout_alignParentBottom="true"
+        android:layout_marginBottom="41dp"
+        android:background="@drawable/papers_icon" />
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/contactsButton"
+        android:layout_alignTop="@+id/videoLabel"
+        android:text="@string/contactsBtnText"
+        android:textAppearance="?android:attr/textAppearanceSmall"
+        android:textColor="@color/darkBlue"
+        android:textSize="10sp" />
+
+    <TextView
+        android:id="@+id/textView3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBaseline="@+id/textView2"
+        android:layout_alignBottom="@+id/textView2"
+        android:layout_centerHorizontal="true"
+        android:text="@string/calBtnText"
+        android:textAppearance="?android:attr/textAppearanceSmall"
+        android:textColor="@color/darkBlue"
+        android:textSize="10sp" />
+
+    <TextView
+        android:id="@+id/papersLabel"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/papersButton"
+        android:layout_below="@+id/notificationsButton"
+        android:text="@string/paperBtnText"
+        android:textColor="@color/darkBlue"
+        android:textSize="10sp" />
+
+    <TextView
+        android:id="@+id/videoLabel"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/videosButton"
+        android:layout_below="@+id/videosButton"
+        android:text="@string/videoBtnText"
+        android:textColor="@color/darkBlue"
+        android:textSize="10sp" />
+
+    <TextView
+        android:id="@+id/textView4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="70dp"
+        android:text="@string/mainmenuimage"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:textColor="@color/darkBlue"
+        android:textSize="42sp" />
+
+    <Button
+        android:id="@+id/btnLogout"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentRight="true"
+        android:background="@null"
+        android:layout_alignParentTop="true"
+        android:text="@string/Button"
+        android:textColor="@color/darkBlue" />
+
+</RelativeLayout>

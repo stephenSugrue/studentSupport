@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/white"
+    android:orientation="vertical" >
+
+  <!-- Name Label -->
+
+  <!-- Description Label -->
+
+    <TextView
+        android:id="@+id/person_name"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:paddingBottom="10dip"
+        android:paddingTop="10dip"
+        android:textColor="@color/darkBlue"
+        android:textSize="25sp"
+        android:textStyle="bold" />
+
+  <TextView
+      
+      android:id="@+id/name_label"
+      android:layout_width="fill_parent"
+      android:layout_height="wrap_content"
+      android:textColor="@color/darkGrey" />
+
+  <TextView
+      android:id="@+id/location_label"
+      android:layout_width="fill_parent"
+      android:layout_height="wrap_content"
+        android:autoLink="map"
+      android:textColor="@color/darkGrey" />
+
+  <!-- Room Label -->
+
+  <TextView
+      android:id="@+id/room_label"
+      android:layout_width="fill_parent"
+      android:layout_height="wrap_content"
+      android:textColor="@color/darkGrey"
+      android:textStyle="bold" />
+  
+  <TextView
+      android:id="@+id/email_label"
+      android:layout_width="fill_parent"
+      android:layout_height="wrap_content"
+      android:textColor="@color/darkGrey"
+       android:autoLink="email"
+      android:textStyle="bold" />
+  
+  <TextView
+      android:id="@+id/phone_label"
+      android:layout_width="fill_parent"
+      android:layout_height="wrap_content"
+      android:textColor="@color/darkGrey"
+      android:autoLink="phone"
+      android:textStyle="bold" />
+
+  
+
+</LinearLayout>

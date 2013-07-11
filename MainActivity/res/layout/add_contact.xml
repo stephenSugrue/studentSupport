@@ -1,0 +1,140 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+
+    <!-- Name Label -->
+
+    <TextView
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:paddingLeft="10dip"
+        android:paddingRight="10dip"
+        android:paddingTop="10dip"
+        android:text="name"
+        android:textSize="10sp" />
+
+    <EditText
+        android:id="@+id/name"
+        android:layout_width="fill_parent"
+        android:layout_height="28dp"
+        android:layout_margin="5dip"
+        android:layout_marginBottom="15dip"
+        android:ems="10"
+        android:singleLine="true" >
+
+        <requestFocus />
+    </EditText>
+
+    <!-- Input Name -->
+
+    <!-- Price Label -->
+
+    <TextView
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:paddingLeft="10dip"
+        android:paddingRight="10dip"
+        android:paddingTop="10dip"
+        android:text="Role"
+        android:textSize="10sp" />
+
+    <!-- Input Price -->
+
+    <EditText
+        android:id="@+id/role"
+        android:layout_width="fill_parent"
+        android:layout_height="30dp"
+        android:layout_margin="5dip"
+        android:layout_marginBottom="15dip"
+        android:ems="10"
+        android:inputType="numberDecimal"
+        android:singleLine="true" />
+
+    <!-- Description Label -->
+
+    <TextView
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:paddingLeft="10dip"
+        android:paddingRight="10dip"
+        android:paddingTop="10dip"
+        android:text="location"
+        android:textSize="10sp" />
+
+    <!-- Input description -->
+
+
+    <!-- Button Create Product -->
+
+    <EditText
+        android:id="@+id/location"
+        android:layout_width="fill_parent"
+        android:layout_height="28dp"
+        android:layout_margin="5dip"
+        android:layout_marginBottom="15dip"
+        android:ems="10"
+        android:singleLine="true" />
+
+    <TextView
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:paddingLeft="10dip"
+        android:paddingRight="10dip"
+        android:paddingTop="10dip"
+        android:text="building"
+        android:textSize="10sp" />
+
+    <EditText
+        android:id="@+id/building"
+        android:layout_width="fill_parent"
+        android:layout_height="28dp"
+        android:layout_margin="5dip"
+        android:layout_marginBottom="15dip"
+        android:ems="10"
+        android:singleLine="true" />
+
+    <TextView
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:paddingLeft="10dip"
+        android:paddingRight="10dip"
+        android:paddingTop="10dip"
+        android:text="email"
+        android:textSize="10sp" />
+
+    <EditText
+        android:id="@+id/email"
+        android:layout_width="fill_parent"
+        android:layout_height="28dp"
+        android:layout_margin="5dip"
+        android:layout_marginBottom="15dip"
+        android:ems="10"
+        android:singleLine="true" />
+
+    <TextView
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:paddingLeft="10dip"
+        android:paddingRight="10dip"
+        android:paddingTop="10dip"
+        android:text="phone"
+        android:textSize="10sp" />
+
+    <EditText
+        android:id="@+id/phone"
+        android:layout_width="fill_parent"
+        android:layout_height="28dp"
+        android:layout_margin="5dip"
+        android:layout_marginBottom="15dip"
+        android:ems="10"
+        android:singleLine="true" />
+
+    <Button
+        android:id="@+id/btnCreateContact"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="Create Contact" />
+
+</LinearLayout>
